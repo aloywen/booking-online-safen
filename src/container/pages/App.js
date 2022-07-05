@@ -1,10 +1,18 @@
-import Button from "../../component/atoms/Button";
+import {
+  Routes,
+  Route,
+} from "react-router-dom";
+import Home from './Home';
+import Booking from './Booking';
+import Login from './Login';
 
 function App() {
   return (
-    <div className="flex flex-col justify-center items-center h-screen">
-      <Button />
-    </div>
+    <Routes>
+      <Route path="/" element={<Home />} exact />
+      <Route path="booking" element={<Booking />} />
+      <Route path="login" element={<Login />} />
+    </Routes>
   );
 }
 
