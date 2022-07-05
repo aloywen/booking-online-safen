@@ -1,6 +1,6 @@
 ## React Tailwind Starter
 
-Demo (safen.netlify.app)
+[Demo](https://safen.netlify.app)
 
 This project uses the following technologies:
 
